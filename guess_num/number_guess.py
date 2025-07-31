@@ -8,7 +8,7 @@ def number_guess():
 	random_num = random.randint(1,100)
 	print("I got My Number")
 	print("You have 5 attempts to guess")
-	user_num = int(input("Guess the number ? "))
+	user_num = int(input("Guess the number between 1 to 100 ? "))
 	count_guess = 0
 	attempts = 5
 	while attempts > 1:
