@@ -3,11 +3,11 @@
 1. ask the input Rock, paper, scissors (r/p/s)
 2. check if its only r/p/s, other chars should be invalid.
 3. check if user Enters r, then computer should choose.
-
+```
  -- Rock wins Scissor
  -- Scissor wins paper
  -- Paper wins Rock
-
+```
 4. if you want to continue y/n if yes go to step1.
 5. else Print Thank you for playing
 6. go with cycle
