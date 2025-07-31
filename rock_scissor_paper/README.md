@@ -12,17 +12,17 @@
 5. else Print Thank you for playing
 6. go with cycle
 
-Example :
-
+## Example
+```
 -- Welcome to Rock, Scissor, Paper Game!--
 Rock,Paper,Scissor Enter (r | p | s) ?r
 Computer choice is r
-Its a Draw
+It's a Draw
 Do you want to continue to play y/n ? y
 -- Welcome to Rock, Scissor, Paper Game!--
 Rock,Paper,Scissor Enter (r | p | s) ?s
 Computer choice is r
-You loose
+You lost
 Do you want to continue to play y/n ? y
 -- Welcome to Rock, Scissor, Paper Game!--
 Rock,Paper,Scissor Enter (r | p | s) ?p
@@ -32,13 +32,14 @@ Do you want to continue to play y/n ? y
 -- Welcome to Rock, Scissor, Paper Game!--
 Rock,Paper,Scissor Enter (r | p | s) ?s
 Computer choice is r
-You loose
+You lost
 Do you want to continue to play y/n ? o
 Invalid input
 Do you want to continue to play y/n ? y
 -- Welcome to Rock, Scissor, Paper Game!--
 Rock,Paper,Scissor Enter (r | p | s) ?s
 Computer choice is s
-Its a Draw
+It's a Draw
 Do you want to continue to play y/n ? n
 Thanks for playing !  
+```

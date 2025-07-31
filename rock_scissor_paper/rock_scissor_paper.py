@@ -36,7 +36,7 @@ def user_choice_check():
 def verify_user_comp(user_data, comp_data):
 	print(f"Computer choice is {comp_data}")
 	if user_data == comp_data:
-			print("Its a Draw")
+			print("It's a Draw")
 			user_choice_check()	
 	elif (user_data == 'r' and comp_data == 's') or \
 		 (user_data == 's' and comp_data == 'p') or \
@@ -44,7 +44,7 @@ def verify_user_comp(user_data, comp_data):
 		print("You Win")
 		user_choice_check()
 	else:
-		print("You loose")
+		print("You lost")
 		user_choice_check()
 
 def play_rock_paper_scissor():
