@@ -12,7 +12,7 @@
 
 
 import random
-
+emojis = {'r':'🪨','p':'📃','s':'✂️'}
 def user_input():
 	user_input= input("Rock,Paper,Scissor Enter (r | p | s) ?")
 	if user_input not in ['r','p','s']:
@@ -34,7 +34,8 @@ def user_choice_check():
 		user_choice_check()
 	
 def verify_user_comp(user_data, comp_data):
-	print(f"Computer choice is {comp_data}")
+	print(f"Your choice is {emojis[user_data]}")
+	print(f"Computer choice is {emojis[comp_data]}")
 	if user_data == comp_data:
 		print("It's a Draw")
 		user_choice_check()	
