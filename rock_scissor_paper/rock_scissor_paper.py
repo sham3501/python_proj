@@ -39,9 +39,9 @@ def verify_user_comp(user_data, comp_data):
 	if user_data == comp_data:
 		print("It's a Draw")
 		user_choice_check()	
-	elif (user_data == 'r' and comp_data == 's') or \
-		 (user_data == 's' and comp_data == 'p') or \
-		 ( user_data == 'p' and comp_data == 'r') :
+	elif ((user_data == 'r' and comp_data == 's') or 
+		 (user_data == 's' and comp_data == 'p') or 
+		 ( user_data == 'p' and comp_data == 'r')):
 		print("You Win")
 		user_choice_check()
 	else:
