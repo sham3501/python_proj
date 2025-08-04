@@ -12,15 +12,18 @@
 
 
 import random
-emojis = {'r':'🪨','p':'📃','s':'✂️'}
+ROCK = 'r'
+PAPER = 'p'
+SCISSORS = 's'
+emojis = {ROCK:'🪨',PAPER:'📃', SCISSORS:'✂️'}
 def user_input():
 	user_input= input("Rock,Paper,Scissor Enter (r | p | s) ?")
-	if user_input not in ['r','p','s']:
+	if user_input not in [ROCK,PAPER,SCISSORS]:
 		print("Invalid input")
 	return user_input
 
 def comp_input():
-	comp_gen = random.choice('rps')
+	comp_gen = random.choice([ROCK,PAPER,SCISSORS])
 	return comp_gen
 
 def user_choice_check():
@@ -39,9 +42,9 @@ def verify_user_comp(user_data, comp_data):
 	if user_data == comp_data:
 		print("It's a Draw")
 		user_choice_check()	
-	elif ((user_data == 'r' and comp_data == 's') or 
-		 (user_data == 's' and comp_data == 'p') or 
-		 ( user_data == 'p' and comp_data == 'r')):
+	elif ((user_data == ROCK and comp_data == SCISSORS) or 
+		 (user_data == SCISSORS and comp_data == PAPER) or 
+		 ( user_data == PAPER and comp_data == ROCK)):
 		print("You Win")
 		user_choice_check()
 	else:
