@@ -1,0 +1,3 @@
+- wallpaper loader on next click
+- click on Next button to load the next image from the folder
+- just add new image so that code will handle to load all from the folder
