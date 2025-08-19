@@ -1,0 +1,4 @@
+- Create login GUI page with email as user login and password to authenticate
+- to test login success use following email and passwd
+  - test@gmail.com
+  - 1234
